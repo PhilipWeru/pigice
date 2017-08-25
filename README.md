@@ -1,10 +1,10 @@
 # Project Title
 
-Pig Dice Game
+A game of Pig Dice 
 
 ## Project details
 
-This is a pig dice game, a kind of mimic to the original pig dice game concepted by John Scarne in 1945
+This is a web bases pig dice game
 
 ### Prerequisites
 
@@ -13,12 +13,13 @@ This is a pig dice game, a kind of mimic to the original pig dice game concepted
 
 ### Deployment
 
-site was deployed to philipweru.github.io/pigice
+Site was deployed to philipweru.github.io/pigice
 
 ## Built with
 
-* atom
-* chrome developer tools
+* HTML
+* CSS
+* JavaScript
 
 
 ## Contributing
@@ -34,5 +35,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
+* Andrew Anampiu
 * Moringa School
-* Carl Tayo
