@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title> PIG DICE </title>
-    <center><h1><strong>Let's Dice!</strong></h1><center>
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <div class= "head"><title>Pig Dice</title></div>
+</head>
 
-     <div class="cole-md-6"> <a> <font size="5">PLAYER 1</font> </a>
-       <div class="form-group">
-          <label for="rollrersult">Roll Result</label>
-          <input id="roll result" class="form-control" type="text" placeholder="Let's roll!">
-          <button type="submit" id=name="submitplayresult" name="button">SUBMIT</button>
-          </div>
-       <div class="col-md-6">
-         <button type="submit"id ="submitplayerresult" name = "button"> ROLL </button>
-       </div>
-       <div class="col-md-6">
-         <label for="score1">Player 1 score</label>
-         <p id = "score1" class = "form-control"> </p>
-       </d>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Pig Dice</h1>
+    </div>
+  </div>
+  <h1 id="welcome"> Welcome <br> Let's Dice!</h1>
+  <div class="container">
+    <div class="row" id="main">
 
-       <div class="col-md-6">
-         <label for="score2">Player 1 score</label>
-         <p id = "score2" class = "form-control"> </p>
-       </d>
+      <div class="col-md-4">
+        <h2 id="player1">Player 1</h2>
+        <h3>Score: <span id="player1score"></span></h3>
+        <h3>Wins: <span id="player1wins"></span></h3>
+        <div id="player1buttons">
+          <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+          <button id="hold" class="btn btn-large btn-success">hold</button>
+        </div>
+      </div>
 
-       <centre><h2><strong>GAMEPLAY</strong><h2></center>
-       <p>Each turn a player repeatedly rolls a die until either a one </p>
+      <div class="col-md-4">
+        <h2>Roll: <span id = "dice"></span></h2>
+        <span id="displaydice"></span>
+        <h3>Current score: <span id="current"></span></h3>
+      </div>
+      <div class="col-md-4">
+        <h2 id="player2">Player 2</h2>
+        <h3>Score: <span id="player2score"></span></h3>
+        <h3>Wins: <span id="player2wins"></span></h3>
+        <div id="player2buttons">
+          <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+          <button id="hold" class="btn btn-large btn-success">hold</button>
+        </div>
+      </div>
+    </div>
 
-       </d>
+  </div>
+</body>
+<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
 
-  </body>
 </html>
